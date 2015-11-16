@@ -42,7 +42,7 @@
 
         <!-- plugin versions -->
         <gmaven-plugin.version>1.5</gmaven-plugin.version>
-        <jgitflow-plugin.version>1.0-m4.3</jgitflow-plugin.version>
+        <jgitflow-plugin.version>1.0-m5.1</jgitflow-plugin.version>
         <versions-plugin.version>2.1</versions-plugin.version>
         <build-helper-plugin.version>1.8</build-helper-plugin.version>
         <bundle-plugin.version>2.4.0</bundle-plugin.version>
@@ -237,9 +237,6 @@
                         -->
                         <noDeploy>true</noDeploy>
                         <flowInitContext>
-                            <developBranchName>develop</developBranchName>
-                            <!-- You can also customize your tag prefixes -->
-                            <versionTagPrefix>rev-</versionTagPrefix>
                         </flowInitContext>
                         <allowUntracked>true</allowUntracked>
                     </configuration>
